@@ -1,0 +1,80 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String      @id @default(auto()) @map("_id") @db.ObjectId
+  email       String      @unique(map: "User_email_key")
+  username    String      @unique
+  password    String
+  phone       String
+  dob         DateTime
+  fullName    String
+  furigana    String
+  businessId  Int         @unique
+  employeeId  Int         @unique
+  gender      gender      @default(Male)
+  permissions permissions @default(Regular)
+  isVerified  Boolean     @default(false)
+  isLoggedIn  Boolean     @default(false)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  devices     String[]
+  tokens      Token[]
+}
+
+model Business {
+  id               String          @id @default(auto()) @map("_id") @db.ObjectId
+  email            String          @unique(map: "Business_email_key")
+  businessId       Int             @unique
+  companyName      String
+  location         String
+  plan             String?
+  website          String?
+  registrationDate DateTime?
+  registrationEnd  DateTime?
+  contractPeriod   contract_period @default(Monthly)
+  service          service         @default(Gyoumu)
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+}
+
+model Otp {
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  email     String
+  opt       String
+  createdAt String
+  expiresAt String
+}
+
+type Token {
+  id    String  @map("_id") @db.ObjectId
+  token String?
+}
+
+enum gender {
+  Male
+  Female
+}
+
+enum permissions {
+  Admin
+  Regular
+}
+
+enum contract_period {
+  Monthly
+  Yearly
+}
+
+enum service {
+  Gyoumu
+  BoshuuRecruiter
+  BoshuuJobseeker
+  Rabo
+}

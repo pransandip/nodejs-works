@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "removeComments": false,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true
+  },
+  "exclude": ["node_modules", "dist", "__tests__", "coverage"],
+  "include": ["src/**/*"]
+}

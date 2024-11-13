@@ -1,0 +1,17 @@
+{
+    "dbConfig": {
+        "server": "localhost",
+        "options": {
+            "port": 1433,
+            "trustServerCertificate": true
+        },
+        "authentication": {
+            "type": "default",
+            "options": {
+                "userName": "sa",
+                "password": "pass@123"
+            }
+        }
+    },
+    "secret" : "od70em7dX0OtGmBGZtZLmA=="
+}

@@ -1,0 +1,12 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "node basics fileSystem promise http",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "author": "SANDY",
+  "license": "ISC"
+}

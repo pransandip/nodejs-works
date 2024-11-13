@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>サインタ・業務アカウントアクティベーション</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Kaisei Tokumin', serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .email-container {
+        max-width: 575px;
+        margin: 40px auto;
+        background: #ffffff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      .header {
+        padding: 10px 10px 0px 10px;
+        text-align: center;
+      }
+      .content {
+        padding: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      .footer {
+        text-align: center;
+        font-size: 12px;
+        padding: 20px;
+        color: #666;
+      }
+      .logo {
+        width: 65px;
+        margin: 0 auto;
+      }
+      .icon {
+        width: 28px;
+        height: 28px;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      .button {
+        background-color: #f8f8f8;
+        color: #333;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .button:hover {
+        background-color: #f0f0f0;
+        transform: scale(1.05);
+      }
+      .icon-heading {
+        margin-top: 40px;
+        font-size: 22px;
+        align-items: center;
+        display: flex;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body></body>
+  <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const error = urlParams.get('error');
+    const message = urlParams.get('message');
+
+    const bodyContent = !error
+      ? `<div class="email-container">
+      <div class="header">
+        <img
+          src="https://i.ibb.co/TkwR5Vq/sainta-LOGO.png"
+          alt="サインタ・ロゴ"
+          class="logo"
+        />
+      </div>
+      <div class="content">
+        <h1>アカウントの認証</h1>
+        <p>
+          アカウントの認証が正常に完了しました。メインページからログインをお試しください。ご質問がある場合は、サポートまでご連絡ください。
+        </p>
+      </div>
+
+      <div class="footer">&copy; 2025 株式会社サインタ。全著作権所有。</div>
+    </div>`
+      : `<div class="email-container">
+      <div class="header">
+        <img
+          src="https://i.ibb.co/TkwR5Vq/sainta-LOGO.png"
+          alt="サインタ・ロゴ"
+          class="logo"
+        />
+      </div>
+      <div class="content">
+        <h1 style="color: red">何か 行った 間違っている</h1>
+        <p>${message}</p>
+        <p>お願いします 試す また！</p>
+      </div>
+
+
+
+      <div class="footer">&copy; 2025 株式会社サインタ。全著作権所有。</div>
+    </div>`;
+
+    document.body.innerHTML = bodyContent;
+  </script>
+</html>

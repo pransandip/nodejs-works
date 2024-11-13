@@ -1,0 +1,18 @@
+.welcomehome_container {
+  background-image: url('../images/home_02.jpg'); /* Adjust the path as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+  padding-top: 8vh;
+  position: relative;
+}
+
+.video-js .vjs-big-play-button {
+  border-radius: 50%;
+  height: 1.6em;
+  width: 1.8em;
+}
+.footer1 > div {
+  bottom: auto;
+}

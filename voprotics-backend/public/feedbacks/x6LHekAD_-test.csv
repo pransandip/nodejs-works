@@ -1,0 +1,4 @@
+first_name,last_name,email,company_name,job_title,feedback,source,sentiment,category,subcategory,action,entryDate,urgency
+Chandra,Sharma,chandra@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Neutral,Customer Care,Responsiveness,Commendation ,14/05/2022,None
+Nikhil,Khedekar,nikhil@gmail.com,Virtual employee,Software Engineer,good quality product valu for many wonderful,Google Play,Neutral,Bug / Glitch,Specific Feature Bug,Complain ,14/05/2022,None
+Deepak,Singh,deepak@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Positive,Bug / Glitch,Crash / Freeze,Request ,14/05/2022,None

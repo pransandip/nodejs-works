@@ -1,0 +1,40 @@
+first_name,last_name,email,company_name,job_title,feedback,source,sentiment,category,subcategory,action,entryDate,urgency
+Chandra,Sharma,chandra@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Neutral,Customer Care,Responsiveness,Complaints,2022-05-14,None
+Nikhil,Khedekar,nikhil@gmail.com,Virtual employee,Software Engineer,good quality product valu for many wonderful,Google Play,Neutral,Bug / Glitch,Specific Feature Bug,Complaints,2022-05-14,None
+Deepak,Singh,deepak@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Positive,Bug / Glitch,Crash / Freeze,Complaints,2022-05-14,None
+Prashant,Bharti,prashant@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Neutral,Company,Recommend,Complaints,2022-05-14,None
+Satya,Dey,saty@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Negative,Company,Product / Service Comparison,Complaints,2022-05-14,None
+Chandra,Sharma,chandra@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Neutral,Security,General Security,Complaints,2022-05-14,None
+Nikhil,Khedekar,nikhil@gmail.com,Virtual employee,Software Engineer,good quality product valu for many wonderful,Google Play,Negative,Other,Suggestion / Request,Complaints,2022-05-14,None
+Deepak,Singh,deepak@gmail.com,Virtual employee,Senior Software Engineer,good quality product valu for many wonderful,Google Play,Positive,Other,Miscellaneous,Complaints,2022-05-14,None
+Prashant,Bharti,prashant@gmail.com,Virtual employee,Senior Software Engineer,osm product just wow!,SurveySparrow,Negative,App,Sub-theme 6,Commendation,2020-03-28,Critical
+Satya,Dey,saty@gmail.com,Virtual employee,Senior Software Engineer,osm product just wow!,SurveySparrow,Neutral,App,Sub-theme 5,Commendation,2020-03-28,Critical
+Chandra,Sharma,chandra@gmail.com,Virtual employee,Senior Software Engineer,osm product just wow!,SurveySparrow,Neutral,App,Sub-theme 4,Commendation,2020-03-28,Critical
+Nikhil,Khedekar,nikhil@gmail.com,Virtual employee,Software Engineer,nice product terrific purchase,Chat,Positive,App,Sub-theme 4,Complaints,2021-05-09,Urgent
+Deepak,Singh,deepak@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Neutral,App,Sub-theme 6,Complaints,2021-05-09,Urgent
+Prashant,Bharti,prashant@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Neutral,App,Sub-theme 5,Complaints,2021-05-09,Urgent
+Satya,Dey,saty@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Negative,Security,General Security,Complaints,2021-05-09,Urgent
+Chandra,Sharma,chandra@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Positive,Security,Auto Log-out,Complaints,2021-05-09,Urgent
+Nikhil,Khedekar,nikhil@gmail.com,Virtual employee,Software Engineer,nice product terrific purchase,Chat,Positive,Customer Care,Attitude of Staff,Complaints,2021-05-09,Urgent
+Deepak,Singh,deepak@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Neutral,Customer Care,Contact Channel,Complaints,2021-05-09,Urgent
+Prashant,Bharti,prashant@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Neutral,Customer Care,Responsiveness,Complaints,2021-05-09,Urgent
+Satya,Dey,saty@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Negative,Customer Care,"Problem Resolution, General",Complaints,2021-05-09,Urgent
+Chandra,Sharma,chandra@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Neutral,Service,Update / Version Used,Complaints,2021-05-09,Urgent
+Nikhil,Khedekar,nikhil@gmail.com,Virtual employee,Software Engineer,nice product terrific purchase,Chat,Positive,Service,Reliable,Complaints,2021-05-09,Urgent
+Deepak,Singh,deepak@gmail.com,Virtual employee,Senior Software Engineer,nice product terrific purchase,Chat,Neutral,Service,Layout / Design,Complaints,2021-05-09,Urgent
+Prashant,Bharti,prashant@gmail.com,Virtual employee,Senior Software Engineer,it is so small looks tiny while in picture it covers a side of bedso confusing utterly disappointed,Twitter,Neutral,Customer Care,Contact Channel,Call to action,2022-01-29,Critical
+Satya,Dey,saty@gmail.com,Virtual employee,Senior Software Engineer,it is so small looks tiny while in picture it covers a side of bedso confusing utterly disappointed,Twitter,Negative,Customer Care,"Problem Resolution, General",Call to action,2022-01-29,Critical
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Negative,Company,Overall Perception,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Positive,Company,Recommend,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Neutral,Customer Care,Attitude of Staff,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Positive,Customer Care,Responsiveness,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Negative,Customer Care,Contact Channel,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Neutral,Other,Suggestion / Request,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Negative,Security,Verification / Identification,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nyc product u can try it once worth the money,Pinterest,Neutral,Security,Auto Log-out,Request,2020-11-13,Low
+,,,Virtual employee,Senior Software Engineer,nice product love it classy product,SatisMeter,Positive,Product & Features,Pending Transactions,Call to action,2023-07-13,Low
+,,,Virtual employee,Senior Software Engineer,nice product love it classy product,SatisMeter,Positive,Product & Features,Managing Payees,Call to action,2023-07-13,Low
+,,,Virtual employee,Senior Software Engineer,nice product love it classy product,SatisMeter,Neutral,Product & Features,Direct Debit / Standing Order,Call to action,2023-07-13,Low
+,,,Virtual employee,Senior Software Engineer,nice product love it classy product,SatisMeter,Positive,Product & Features,Available Balance Infomation,Call to action,2023-07-13,Low
+,,,Virtual employee,Senior Software Engineer,nice product love it classy product,SatisMeter,Negative,Product & Features,General,Call to action,2023-07-13,Low
+,,,Virtual employee,Senior Software Engineer,nice product love it classy product,SatisMeter,Neutral,Product & Features,Transfers / Moving Money,Call to action,2023-07-13,Low

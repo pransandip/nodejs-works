@@ -1,0 +1,38 @@
+.container {
+  background-image: url('../images/bgMain.jpg');
+  z-index: -1;
+  /* position: fixed; */
+  background-size: cover;
+  margin-top: 63px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.container .innerContainer {
+  margin-top: 20px;
+  background-color: white;
+  position: relative;
+  background-size: cover;
+  transition-property: margin;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.login_form .form_control {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.login_form .button {
+  width: 50%;
+  background-color: #9c2486;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.login_form .uploadImage > div {
+  width: 14rem;
+  margin-top: 17px;
+}

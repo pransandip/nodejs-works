@@ -1,0 +1,16 @@
+Skip to main content
+Get Started
+TS for the New Programmer
+TypeScript for JS Programmers
+TS for Java/C# Programmers
+TS for Functional Programmers
+TypeScript Tooling in 5 minutes
+Handbook
+Reference
+Tutorials
+What's New
+Declaration Files
+JavaScript
+Project Configuration
+TypeScript for the New Programmer
+Congratulations on choosing TypeScript as one of your first languages — you’re already making good decisions!

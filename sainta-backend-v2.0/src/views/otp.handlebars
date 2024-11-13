@@ -1,0 +1,115 @@
+<!-- Computer Icon: ./images/computer_icon.png -->
+<!-- Lock Icon: ./images/lock-icon.png -->
+<!-- Support Icon: ./images/support-icon.png -->
+
+<!-- Sainta Logo (Big-main-logo) ./images/saintaLOGO.png -->
+<!-- Sainta Logo (mini-icon-like logo) ./images/saintaLOGO_S.png  -->
+
+<html lang='ja'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>サインタ・業務アカウントアクティベーション</title>
+    <link
+      href='https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&display=swap'
+      rel='stylesheet'
+    />
+
+    <style>
+      body { font-family: "Kaisei Tokumin", serif; margin: 0; padding: 0;
+      background-color: #f4f4f4; } .email-container { max-width: 575px; margin:
+      40px auto; background: #ffffff; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      padding: 20px; } .header { padding: 10px 10px 0px 10px; text-align:
+      center; } .content { padding: 20px; line-height: 1.6; color: #333; }
+      .footer { text-align: center; font-size: 12px; padding: 20px; color: #666;
+      } .logo { width: 65px; margin: 0 auto; } .icon { width: 28px; height:
+      28px; vertical-align: middle; margin-right: 10px; } .button {
+      background-color: #f8f8f8; color: #333; padding: 10px 20px;
+      text-decoration: none; border-radius: 5px; display: inline-block;
+      margin-top: 20px; align-items: center; text-align: center; cursor:
+      pointer; transition: all 0.3s ease-in-out; } .button:hover {
+      background-color: #f0f0f0; transform: scale(1.05); } .button > a {
+      text-decoration: none; cursor: pointer; color: #333; } .icon-heading {
+      margin-top: 40px; font-size: 22px; align-items: center; display: flex;
+      font-weight: bold; }
+    </style>
+  </head>
+
+  <body>
+    <div class='email-container'>
+      <div class='header'>
+        <img
+          src='{{base_url}}/images/saintaLOGO.png'
+          alt='サインタ・ロゴ'
+          class='logo'
+        />
+      </div>
+
+      <div class='content'>
+        <h1>デバイスの認証手続き</h1>
+
+        <p>
+          新しいデバイスでソフトウェアを安全にご使用いただくために、デバイス認証が必要となります。以下のワンタイムコードを使用して、デバイスの認証を完了させてください。
+        </p>
+
+        <p style='font-size: 20px; font-weight: bold; color: #333;'>
+          <!-- Insert ACTUAL CODE here... -->
+          コード:
+          <strong>{{otp}}</strong>
+        </p>
+
+        <div class='icon-heading'>
+          <img
+            src='{{base_url}}/images/lock-icon.png'
+            alt='ロック'
+            class='icon'
+          />
+          コードについて重要なお知らせ！
+        </div>
+
+        <p>
+          このリンクは送信されてから24時間以内にのみ有効です。24時間を過ぎると、リンクは無効となり、新たなワンタイムコードの生成が必要となります。この期限内にデバイスの認証を完了し、アカウントの安全を保つためにご協力をお願いいたします。
+        </p>
+
+        <p>
+          もし本通知に心当たりがない場合、またはワンタイムコード生成の操作を行っていない場合は、不正アクセスの可能性があります。以下の対処方法をご確認ください。
+        </p>
+
+        <ul>
+          <li>パスワードを直ちにリセットしてください。</li>
+          <li>アカウントのセキュリティ設定を確認してください。</li>
+          <li
+          >解決しない場合や不明な点がある場合は、速やかにサポートセンターまでご連絡ください。</li>
+        </ul>
+
+        <div class='icon-heading'>
+          <img
+            src='{{base_url}}/images/support-icon.png'
+            alt='サポート'
+            class='icon'
+          />
+          サポートが必要ですか？
+        </div>
+
+        <p>
+          ご不明点がある場合は、ウェブサイトのメーンページから直接お問い合わせください。このメールに返信してもご対応いたしかねます。
+        </p>
+
+        <div class='icon-heading'>
+          <img
+            src='{{base_url}}/images/computer-icon.png'
+            alt='コンピュータ'
+            class='icon'
+          />
+          データセキュリティを保証します。
+        </div>
+
+        <p>
+          サインタでは、お客様のデータを大切に扱い、アカウントへの不正アクセスを防ぐことを重視しています。すべてのデータは暗号化されているため、サインタでは詳細な情報を閲覧することはできませんが、お客様が登録されたことは把握しています。弊社のソフトウェアを安心してご利用いただけるよう努めています。
+        </p>
+      </div>
+
+      <div class='footer'>&copy; 2025 株式会社サインタ。全著作権所有。</div>
+    </div>
+  </body>
+</html>

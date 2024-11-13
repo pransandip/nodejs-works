@@ -1,0 +1,33 @@
+.createArticleForm {
+  display: flex;
+  flex-direction: column;
+  /* margin: 8px;
+  padding: 5px; */
+  border-radius: 5px;
+  /* border: 2px solid #9c2486; */
+  background-color: #fff;
+  height: 650px;
+}
+
+.createArticleSendButton {
+  padding: 10px 30px;
+  border-radius: 3px;
+  align-self: center;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: none;
+}
+
+.createArticleSendIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.tox-tinymce {
+  height: 600px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: aliceblue !important;
+}

@@ -1,5 +1,0 @@
-{
-  "appService.defaultWebAppToDeploy": "undefined/subscriptions/ffe4e4e7-d848-4360-b7d3-bf377dcd42c5/resourceGroups/synexis/providers/Microsoft.Web/sites/synexis-api",
-  "appService.deploySubpath": ".",
-  "cSpell.enabled": false
-}

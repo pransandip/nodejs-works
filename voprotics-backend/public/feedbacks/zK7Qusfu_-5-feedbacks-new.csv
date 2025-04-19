@@ -1,6 +1,0 @@
-first_name,last_name,email,company_name,job_title,feedback,source ,sentiment,category,subcategory,action
-Chandra,Sharma,chandra@gmail.com,Virtual employee,Senior Software Engineer,Good Product,unknown,Positive ,unknown,unknown,Commendation 
-Nikhil,Khedekar,nikhil@gmail.com,Virtual employee,Software Engineer,Good Product,unknown,Negative ,unknown,unknown,Complain 
-Deepak,Singh,deepak@gmail.com,Virtual employee,Senior Software Engineer,Good Product,unknown,Neutral,unknown,unknown,Request 
-Prashant,Bharti,prashant@gmail.com,Virtual employee,Senior Software Engineer,Good Product,unknown,Positive ,unknown,unknown,Commendation 
-Satya,Dey,saty@gmail.com,Virtual employee,Senior Software Engineer,Good Product,unknown,Neutral ,unknown,unknown,Request 

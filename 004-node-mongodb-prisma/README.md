@@ -14,14 +14,14 @@
     pm2 startup
 ```
 
-## `exec_mode: "fork"` — What does it do?
+### `exec_mode: "fork"` — What does it do?
 In PM2, the `exec_mode` setting controls how your application is run. There are two main modes:
 
 1. `fork mode` — (Single process)
 
 2. `cluster mode` — (Multi-process, load-balanced)
 
-## `fork` Mode (what you're using)
+### `fork` Mode (what you're using)
 ```js
 exec_mode: "fork"
 ```
@@ -37,7 +37,7 @@ node src/index.js
 - You’re in development or running a lightweight app.
 - You want simpler logs and debugging.
 
-## When to use `cluster` mode?
+### When to use `cluster` mode?
 ```js
 exec_mode: "cluster",
 instances: 4

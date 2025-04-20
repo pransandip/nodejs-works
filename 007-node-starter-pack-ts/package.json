@@ -11,7 +11,7 @@
     "format": "npx prettier --write .",
     "git:update": "git add -A && npx cz",
     "prod": "node --watch ./dist/index.js",
-    "build": "npx tsc -p tsconfig.prod.json",
+    "build": "npx tsc -p tsconfig.build.json",
     "prepare": "husky install"
   },
   "lint-staged": {
